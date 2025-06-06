@@ -60,7 +60,7 @@ composer install
 Edit `client.php` and set your OpenAI API key:
 
 ```php
-$client = OpenAI::client('your-openai-api-key');
+$this->openaiClient = OpenAI::client("your-openai-api-key");
 ```
 
 Also make sure the `$mcpServerUrl` variable is correctly pointing to your MCP server (default: `http://localhost:3500/mcp` or your public server IP).
