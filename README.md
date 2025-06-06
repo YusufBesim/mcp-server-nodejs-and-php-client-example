@@ -37,7 +37,7 @@ npm install
 node server.js
 ```
 
-> By default, the server listens on port `3500` at the endpoint `POST /mcp`.
+> By default, the server listens on port `3000` at the endpoint `POST /mcp`.
 
 ## 🧠 Client (PHP + OpenAI)
 
@@ -63,7 +63,7 @@ Edit `client.php` and set your OpenAI API key:
 $this->openaiClient = OpenAI::client("your-openai-api-key");
 ```
 
-Also make sure the `$mcpServerUrl` variable is correctly pointing to your MCP server (default: `http://localhost:3500/mcp` or your public server IP).
+Also make sure the `$mcpServerUrl` variable is correctly pointing to your MCP server (default: `http://localhost:3000/mcp` or your public server IP).
 
 ### ▶️ Run
 
